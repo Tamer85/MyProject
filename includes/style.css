@@ -1,0 +1,251 @@
+body { 
+  background: #dad9db; 
+  font-weight: bold;
+  font-family: Arial, Helvetica,'Montserrat';
+}
+ header {
+  width: 100%;
+  height: 170px;
+ }
+ #Logo {
+  position: absolute;
+  background: url("../images/tamer.png") no-repeat left center;
+  color: #222222;
+  font-size: 50px;
+  padding-top: 1px;
+  padding-left: 110px;
+  margin-left: 122px;
+  margin-top: 76px;
+ }
+ * {
+    margin: 0; padding: 0;
+  }
+ header, nav, main, aside, footer, div { 
+   display: block; 
+  }
+ a { 
+   text-decoration: none; color: #0e0505;  }
+ nav {
+  background: #b9b9b9;
+  position: absolute;
+  width: 520px;
+  height: 23px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: black;
+  opacity: 0.3;
+  margin-left: 125px;
+  margin-top: 26px;
+ }
+ nav :hover {
+  color: #052fbb;
+  opacity: 0.3%;
+  font-size: 20px;
+  font-weight: bold;
+ }
+main {
+  position: absolute;
+  width: 1110px;
+  height: 1653px;
+  margin-left: 125px;
+  margin-top: 99px;
+}
+.mainPics {
+  width: 350px;
+  height: 450px;
+  padding-left: 15px;
+}
+.aboutMe {
+  width: 730px;
+  padding-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+
+p {
+  padding-top: 8px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+}
+.programLanguage {  
+  background: none;
+  padding-top: 60px;
+  width: 930px;
+  height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+.programLanguageList {   
+  font-family: "Arial", Helvetica, sans-serif;
+  background: none;
+  list-style-type: none;
+  padding-top: 10px;
+}
+.programLanguageList li {   
+  padding-top: 20px;
+}
+.programLanguageList img {   
+    height: 50px;
+}
+.picCenter {   
+  background: none;
+  position: absolute;
+  padding-top: 400px;
+}
+.mypic {   
+  position: absolute;
+  background: none;
+  margin-top: 460px;
+  margin-left: 310px;
+}
+
+footer { 
+  position: absolute;
+  width: 100%;
+  height: 230px;
+  background: #444343;
+  margin-top: 1960px;
+}
+
+.Button1 {
+  position: absolute;
+  width: 206px;
+  height: 40px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  color: rgb(27, 23, 23);
+  background: rgb(191, 193, 195);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-top: 59px;
+  margin-left: 125px;
+  cursor:pointer;
+}
+
+.Button1:hover {
+  position: absolute;
+  width: 206px;
+  height: 40px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  color: #222222;
+  background: rgb(124, 123, 122);
+  font-family: "Arial", Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-top: 59px;
+  margin-left: 125px;
+  cursor:pointer;
+}
+
+.emailMe {
+  background: none;
+  text-decoration: none;
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 270px;
+  height: 28px;
+  text-align: center;
+  border: none;
+  }
+
+.FButton {
+  border: none;
+  color: #FFFFFF;
+  background: none;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 120px;
+}
+
+  .FButton:hover {
+  border: none;
+  color: #C6B393;
+  background: none;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 120px;
+  cursor:pointer;
+  }
+
+.dividerLine {
+background: none;
+position: absolute;
+width: 940px;
+height: 1px;
+margin-left: 125px;
+margin-top: 130px;
+mix-blend-mode: normal;
+opacity: 0.2;
+border: 1px solid #ffffff;
+box-sizing: border-box;
+}
+ul.smallPics li {
+  background: none;
+  display: inline;
+}
+.smallPics {
+  background: none;
+  position: absolute;
+  color: #FFFFFF;
+  width: 1111px;
+  height: 62px;
+  margin-left: 122px;
+  display: inline;
+  list-style-type: none;
+  margin-top: 160px;
+}
+.smIcons {
+  background: none;
+  margin-left: 20px;
+}
+h6 {
+    font-family: "Arial", Helvetica, sans-serif;
+}
+h6, br , a img{
+  background: none;
+}
